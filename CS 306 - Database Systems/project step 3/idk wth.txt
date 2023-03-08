@@ -1,0 +1,41 @@
+    /* Container needed to position the button. Adjust the width as needed */
+  container {
+    position:  relative;
+    width: 50%;
+    text-align: "center";
+  }
+
+  /* Make the image responsive */
+  container img {
+    width: 20%;
+    height: auto;
+    text-align: "center";
+  }
+
+  button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #082030;
+    border: 3px solid #1C4C7B;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+  }
+
+  button:hover {
+    background-color: #053656;
+    color: white;
+  }
+
+
+<img src="images/doctor.png" alt="Snow" style="width:20%">
+                <button type="submit" class="button">Doctor</button>
